@@ -17,11 +17,11 @@ body {
 }
 
 span {
-  color: #27496d;
+  color: #0881a3;
 }
 
 hr {
-  border: dotted #27496d 6px;
+  border: dotted #0881a3 6px;
   border-bottom: none;
   width: 10%;
   margin: 80px auto;
@@ -57,7 +57,7 @@ hr {
 }
 
 /* .navbar-list a:hover {
-  color: #00909e;
+  color: #0881a3;
 } */
 
 .navbar-list li i {
@@ -72,7 +72,7 @@ hr {
 }
 
 .navbar-list li a:hover>i {
-  color: #27496d;
+  color: #0881a3;
 }
 
 .navbar-logo img {
@@ -263,7 +263,7 @@ hr {
 }
 
 .work-skill:hover h4 {
-  color: #27496d;
+  color: #0881a3;
 }
 
 .work-skill:hover p {
@@ -336,7 +336,7 @@ hr {
 
 .mywork-section-card a {
   text-decoration: none;
-  color: #27496d;
+  color: #0881a3;
 }
 
 .mywork-section-card {
@@ -419,7 +419,7 @@ hr {
 
 
 #freelance {
-  color:#27496d;
+  color:#0881a3;
   font-weight: bold;
   font-size: 18px;
   width: 100%;
@@ -433,7 +433,7 @@ hr {
 }
 
 .btn:hover {
-  background-color: #27496d;
+  background-color: #0881a3;
 }
 
 
@@ -459,8 +459,9 @@ hr {
   opacity: 0.7;
   width: 100%;
   height: 100px;
-  overflow: hidden;
   margin-top: 5%;
+  /* bottom: 0; */
+  height: auto;
 }
 
 .footer .row {
@@ -480,7 +481,7 @@ hr {
 
 .git, .insta, .link {
   text-decoration: none;
-  color: #ca3e47;
+  color: #0881a3;
   text-align: center;
   font-weight: bold;
   font-size: 15px;

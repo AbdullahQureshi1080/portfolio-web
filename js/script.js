@@ -38,8 +38,7 @@ function showSlides(slides, slideIndex, cycle) {
 };
 
 
-
-
+// Navbar ////////////
 
 var prevScrollpos = window.pageYOffset;
 
@@ -52,6 +51,18 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "nav-container") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-container";
+  }
+}
+
+// Links animation
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -76,11 +87,3 @@ $(document).ready(function(){
     } // End if
   });
 });
-function myFunction() {
-  var x = document.getElementById("navbar");
-  if (x.className === "nav-container") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav-container";
-  }
-}
